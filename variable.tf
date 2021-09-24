@@ -49,7 +49,7 @@ variable "env" {
 
 variable "instance_tags" {
   type = list
-  default = ["Terraform-1", "Terraform-2"]
+  default = ["mysql", "apache"]
 }
 
 
